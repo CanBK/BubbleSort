@@ -140,8 +140,10 @@ public class TugasKelompok {
                 case 5:
                     ob.sortAcs(arrAngka,"Desc");
                     break;
+                case 6:
+                    break;
                 default:
-                    throw new AssertionError();
+                    break;
             }
         }while(pilihan!=6);
        
